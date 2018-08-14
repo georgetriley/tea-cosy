@@ -1,0 +1,141 @@
+/* General styling */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header and menu section */
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+  top: 0;
+}
+
+header .logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.menu {
+  margin-right: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu a {
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* Main content */
+.main {
+  position: relative;
+  top: 62px;
+}
+
+/* Mission section */
+.mission {
+  background-image: url('../images/img-mission-background.jpg');
+  margin: auto;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.strip {
+  background-color: black;
+}
+
+/* Featured teas section */
+.featured {
+  display: block;
+  width: 1000px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.tea-pic {
+  height: 200px;
+  width: 300px;
+  margin: 10px 15px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 520px;
+  align-content: space-between;
+}
+
+.caption {
+  margin: 0px;
+}
+
+/* Locations section */
+.locations {
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  margin: 50px auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location-list {
+  display: flex;
+  justify-content: center;
+}
+
+.location-item {
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+.address {
+  line-height: 300%;
+}
+
+.locations h2 {
+  margin: 0;
+}
+
+/* Footer and contact section */
+footer {
+  position: relative;
+  top: 28px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
